@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.badge-warning{
+  background-color: rgb(247, 209, 38);
+  color: black;
+  margin: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+
+.badge-primary{
+  color: blue;
+  margin: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+
+.badge-secondary{
+  color: red;
+  margin: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-decrement{
+  background: #db2505;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  /* margin-left: 1rem; */
+}
+
+.btn-increment{
+  background: #95989f;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+
+}
